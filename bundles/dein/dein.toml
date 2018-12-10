@@ -1,0 +1,38 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+# 非同期処理全般
+[[plugins]]
+repo = 'Shougo/vimproc.vim'
+
+# Syntax checker
+[[plugins]]
+repo = 'w0rp/ale'
+hook_add = 'source ~/.config/nvim/bundles/plugins/ale_settings.vim'
+
+# statusline plugin
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+
+[[plugins]] # slimのハイライト
+repo = 'slim-template/vim-slim'
+
+[[plugins]] # インデントを見やすく
+repo = 'Yggdroot/indentLine'
+
+# 無駄な空白をハイライト
+[[plugins]]
+repo = 'bronson/vim-trailing-whitespace'
+
+[[plugins]] # j,kによる移動を爆速に
+repo = 'rhysd/accelerated-jk'
+
+[[plugins]] # カラースキーマ
+repo = 'w0ng/vim-hybrid'
+
+[[plugins]] # カラースキーマ
+repo = 'tomasr/molokai'
+
+# colorschema
+[[plugins]]
+repo = 'chriskempson/vim-tomorrow-theme'
